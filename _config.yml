@@ -1,19 +1,20 @@
-title:             Clean Blog
-email:             your-email@example.com
-description:       A Blog Theme by Start Bootstrap
-author:            Start Bootstrap
-baseurl:           "/startbootstrap-clean-blog-jekyll"
-url:               "http://blackrockdigital.github.io"
-
-# Social Profiles
-twitter_username:  SBootstrap
-github_username:   BlackrockDigital
-facebook_username: StartBootstrap
+title: Cafe au Chain
+email: info@cafeauchain.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Cafe au Chain is a blockchain-backed inventory management platform for the specialty coffee industry. Our mission
+  is to provide tools for coffee roasters, producers and farmers, and traders that make transparency around 
+  economic and environmental sustainability easier.
+baseurl: "/blog" # the subpath of your site, e.g. /blog
+url: "https://www.cafeauchain.com" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: cafeauchain
+github_username:  CafeauChain
 
 # Build settings
-markdown:          kramdown
+exclude: ["bin"]
+markdown: kramdown
 paginate:          5
 paginate_path:     "/posts/page:num/"
 plugins:
   - jekyll-feed
   - jekyll-paginate
+

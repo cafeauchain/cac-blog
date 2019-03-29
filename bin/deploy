@@ -1,0 +1,3 @@
+jekyll build
+rsync -va _site/ ../cafeauchain-backend/public/blog/
+rsync -va -e "ssh -i ~/.ssh/cafeauchain-eb" _site/ ec2-user@54.91.128.199:/var/app/current/public/blog/
