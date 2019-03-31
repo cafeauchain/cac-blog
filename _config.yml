@@ -10,7 +10,7 @@ twitter_username: cafeauchain
 github_username:  CafeauChain
 
 # Build settings
-exclude: ["bin"]
+exclude: ["bin", "Rakefile"]
 markdown: kramdown
 paginate:          5
 paginate_path:     "/posts/page:num/"

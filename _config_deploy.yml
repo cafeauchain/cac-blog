@@ -1,0 +1,3 @@
+baseurl: http://www.example.com/some/subdir/
+deploy_dir: ec2-user@54.91.128.199:/var/app/current/public/blog/
+deploy_key: ~/.ssh/cafeauchain-eb
